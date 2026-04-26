@@ -2,6 +2,9 @@
 
 A lightweight REST API providing financial jokes tailored with Malaysian nuances and cultural context.
 
+## 🌐 Live Demo
+[https://financial-jokes-api-main-5lxhou.free.laravel.cloud/](https://financial-jokes-api-main-5lxhou.free.laravel.cloud/)
+
 ## 🚀 Quick Start
 
 ### Prerequisites
