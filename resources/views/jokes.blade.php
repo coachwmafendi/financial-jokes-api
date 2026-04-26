@@ -31,7 +31,7 @@
                 btn.innerText = 'Loading...';
                 textEl.classList.add('opacity-50');
 
-                const response = await fetch('https://financial-jokes-api-main-5lxhou.free.laravel.cloud/api/jokes/random');
+                const response = await fetch('/api/jokes/random');
                 const result = await response.json();
 
                 // API returns { data: { id: 1, content: "..." } }
