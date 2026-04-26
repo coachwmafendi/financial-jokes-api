@@ -63,6 +63,10 @@ class JokeSeeder extends Seeder
             "Saving aku bukan tak ada langsung… cuma berada dalam alam ghaib yang belum dapat dikesan"
         ];
 
+        if (Joke::count() > 0) {
+            return;
+        }
+
         foreach ($jokes as $joke) {
             Joke::create([
                 'content' => $joke,
