@@ -1,0 +1,28 @@
+# Product Requirements Document: Financial Jokes API
+
+## 1. Project Overview
+- **Project Name:** Financial Jokes API
+- **Goal:** To provide a lightweight REST API that delivers financial jokes, specifically tailored with Malaysian nuances and cultural context.
+- **Target Audience:** Developers building financial applications, fintech startups, or social media managers seeking humorous financial content for the Malaysian market.
+- **Current Status:** MVP (Minimum Viable Product)
+
+## 2. Core Features
+- **Random Joke Retrieval:** A dedicated endpoint to fetch a single, random financial joke.
+- **Joke Catalog:** An endpoint to retrieve the entire collection of available financial jokes.
+- **Malaysian Nuances:** Jokes should incorporate local financial contexts (e.g., EPF, LHDN, local banking habits) to resonate with the target audience.
+
+## 3. Technical Stack
+- **Framework:** Laravel 13
+- **Language:** PHP 8.3
+- **Database:** SQLite (for simplicity and portability in the MVP phase)
+
+## 4. API Specification
+| Endpoint | Method | Description |
+| :--- | :--- | :--- |
+| `/api/jokes` | GET | Returns a list of all financial jokes. |
+| `/api/jokes/random` | GET | Returns one random financial joke. |
+
+## 5. Success Metrics
+- Successful deployment of the API.
+- Low latency response times for joke retrieval.
+- High quality and cultural relevance of the joke dataset.
